@@ -1,0 +1,16 @@
+title,url,type,level,description,topics
+Python Tutorial,https://docs.python.org/3/tutorial/,Documentation,Beginner,"Official Python tutorial covering syntax, data structures, modules, errors and classes.",python|programming|syntax|functions|classes
+Python Library Reference,https://docs.python.org/3/library/,Documentation,Intermediate,"Official reference for Python standard-library modules.",python|libraries|modules
+Pandas Getting Started,https://pandas.pydata.org/docs/getting_started/,Documentation,Beginner,"Official introduction to loading, selecting, cleaning and analyzing tabular data with pandas.",pandas|data analysis|csv|dataframes
+NumPy Quickstart,https://numpy.org/doc/stable/user/quickstart.html,Documentation,Beginner,"Official NumPy introduction to arrays, indexing, operations and shapes.",numpy|arrays|numerical computing
+Scikit-learn User Guide,https://scikit-learn.org/stable/user_guide.html,Documentation,Intermediate,"Guides for preprocessing, supervised learning, unsupervised learning, model selection and evaluation.",machine learning|scikit-learn|classification|regression|evaluation
+TF-IDF Feature Extraction,https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction,Documentation,Intermediate,"Scikit-learn guide to turning text into numerical features including TF-IDF.",tf-idf|nlp|text search|vectorization
+Cosine Similarity,https://scikit-learn.org/stable/modules/metrics.html#cosine-similarity,Documentation,Beginner,"Scikit-learn documentation for cosine similarity and pairwise metrics.",cosine similarity|similarity|search
+Sentence Transformers Documentation,https://www.sbert.net/,Documentation,Intermediate,"Documentation for computing sentence embeddings and semantic textual similarity.",embeddings|semantic search|nlp
+FAISS Getting Started,https://github.com/facebookresearch/faiss/wiki/Getting-started,Documentation,Intermediate,"FAISS documentation for efficient similarity search over dense vectors.",faiss|vector search|embeddings
+Streamlit Get Started,https://docs.streamlit.io/get-started,Documentation,Beginner,"Official guide to creating and running data apps with Streamlit.",streamlit|python|web app
+Docker Get Started,https://docs.docker.com/get-started/,Documentation,Beginner,"Official introduction to containers, images and Docker workflows.",docker|deployment|containers
+GitHub Skills,https://skills.github.com/,Course,Beginner,"Interactive lessons for learning GitHub and collaborative development.",git|github|version control
+Hugging Face NLP Course,https://huggingface.co/learn/nlp-course/,Course,Intermediate,"Course introducing transformers, tokenizers, datasets and NLP model workflows.",nlp|transformers|tokenization
+Google Machine Learning Crash Course,https://developers.google.com/machine-learning/crash-course,Course,Beginner,"Practical introduction to machine learning concepts and exercises.",machine learning|ml|neural networks
+Pytest Getting Started,https://docs.pytest.org/en/stable/getting-started.html,Documentation,Beginner,"Official guide to writing and running Python tests with pytest.",testing|pytest|python

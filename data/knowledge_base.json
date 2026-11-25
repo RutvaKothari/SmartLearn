@@ -1,0 +1,57 @@
+[
+  {
+    "title": "TF-IDF and text retrieval",
+    "url": "https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction",
+    "content": "TF-IDF stands for term frequency-inverse document frequency. It represents text using weights that increase with a term's frequency in a document and decrease when the term appears in many documents. A TF-IDF vectorizer learns a vocabulary and transforms documents into numerical feature vectors. TF-IDF is useful for keyword-oriented information retrieval, but it does not understand meaning in the same way a language model does. Two texts that use different words for the same idea may receive a low similarity score."
+  },
+  {
+    "title": "Cosine similarity",
+    "url": "https://scikit-learn.org/stable/modules/metrics.html#cosine-similarity",
+    "content": "Cosine similarity measures the cosine of the angle between two non-zero vectors. It is commonly used to compare text vectors in information retrieval. A larger cosine similarity generally indicates that two vectors point in a more similar direction. Cosine similarity is a ranking signal, not a calibrated probability that a result is correct. It should be evaluated on representative queries."
+  },
+  {
+    "title": "Content-based recommendation",
+    "url": "https://developers.google.com/machine-learning/recommendation/content-based/basics",
+    "content": "A content-based recommendation system recommends items similar to items or attributes a user has shown interest in. It uses item features such as descriptions, categories or topics. The system can compare a user profile or query with item feature vectors and rank items by similarity. Content-based methods do not require other users' ratings, but their recommendations depend on the quality and coverage of item metadata."
+  },
+  {
+    "title": "Precision and recall",
+    "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "content": "Precision is the fraction of retrieved items that are relevant. Recall is the fraction of all relevant items that were successfully retrieved. Precision at K evaluates the proportion of the top K retrieved results that are relevant. Recall at K evaluates the proportion of known relevant items appearing in the top K results. These metrics require a labelled evaluation set containing queries and relevance judgements."
+  },
+  {
+    "title": "Embeddings and semantic search",
+    "url": "https://www.sbert.net/",
+    "content": "Sentence embeddings represent sentences or passages as dense numerical vectors. Semantic search compares query and document embeddings to find passages with related meaning, even when they do not share exactly the same words. Embedding quality depends on the selected model and domain. Similarity scores are not proof of factual correctness, so retrieved passages should be inspected and evaluated."
+  },
+  {
+    "title": "RAG basics",
+    "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+    "content": "Retrieval-augmented generation, often called RAG, combines information retrieval with a language model. A system first retrieves relevant external passages for a user query, then supplies those passages as context to the language model. RAG can help ground answers in a selected knowledge source, but it does not guarantee correctness. Poor retrieval, incomplete documents or unsupported generation can still produce incorrect answers. A reliable system should show sources and abstain when evidence is insufficient."
+  },
+  {
+    "title": "Document chunking",
+    "url": "https://docs.langchain.com/oss/python/integrations/splitters",
+    "content": "Document chunking divides long documents into smaller passages before indexing. Chunk size affects how much context is available for retrieval. Overlap can preserve information that crosses chunk boundaries, but too much overlap can create redundant results. Chunking should be tested against the kinds of questions users ask."
+  },
+  {
+    "title": "Streamlit application basics",
+    "url": "https://docs.streamlit.io/get-started",
+    "content": "Streamlit is a Python framework for creating interactive data applications. A Streamlit app is commonly run with the streamlit run command followed by the application file. Streamlit reruns the script when users interact with widgets. Caching can avoid repeating expensive data loading or model initialization."
+  },
+  {
+    "title": "Docker concepts",
+    "url": "https://docs.docker.com/get-started/",
+    "content": "Docker packages an application and its dependencies into a container image. A container is a runnable instance of an image. A Dockerfile describes how to build an image. Containers can make application environments more reproducible across development and deployment machines."
+  },
+  {
+    "title": "Python testing with pytest",
+    "url": "https://docs.pytest.org/en/stable/getting-started.html",
+    "content": "Pytest is a Python testing framework. Tests are commonly written as functions whose names begin with test_. Assertions check whether actual results match expected results. Automated tests help detect regressions when application code changes."
+  },
+  {
+    "title": "Machine learning model evaluation",
+    "url": "https://scikit-learn.org/stable/model_evaluation.html",
+    "content": "Model evaluation measures how well a model performs on data that was not used to fit it. The choice of metric depends on the task. A test set should represent expected real-world inputs. Evaluation results are estimates and do not guarantee future performance."
+  }
+]
